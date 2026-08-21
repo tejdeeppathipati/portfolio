@@ -25,7 +25,7 @@ export const DATA = {
     "Software engineer building reliable AI systems, data platforms, and backend products.",
   summary:
     "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/) who enjoys turning ambitious ideas into dependable software. My work spans AI agents, retrieval systems, data engineering, and backend APIs—with a focus on clear architecture, measurable reliability, and products people can actually use. I’m currently building production services at Miraivant Advisory and exploring grounded AI systems in my own projects.",
-  avatarUrl: "",
+  avatarUrl: "/tejdeep-pathipati-image.jpeg",
   skills: [
     { name: "Python", icon: Python },
     { name: "TypeScript", icon: Typescript },

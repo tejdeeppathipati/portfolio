@@ -148,7 +148,13 @@ export default async function Image({
                             <div style={styles.wrapper}>
                                 {imageUrl && (
                                     <div style={styles.imageSection}>
-                                        <img src={imageUrl} alt="Blog Post" style={styles.image} />
+                                        <img
+                                            src={imageUrl}
+                                            alt="Blog Post"
+                                            width={140}
+                                            height={140}
+                                            style={styles.image}
+                                        />
                                     </div>
                                 )}
                                 <div style={styles.mainContainer}>
@@ -192,7 +198,13 @@ export default async function Image({
                         <div style={styles.wrapper}>
                             {imageUrl && (
                                 <div style={styles.imageSection}>
-                                    <img src={imageUrl} alt={title} style={styles.image} />
+                                    <img
+                                        src={imageUrl}
+                                        alt={title}
+                                        width={140}
+                                        height={140}
+                                        style={styles.image}
+                                    />
                                 </div>
                             )}
                             <div style={styles.mainContainer}>
