@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, FolderGit2 } from "lucide-react";
+import { Code2, HomeIcon, Lightbulb } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -44,7 +44,8 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/#projects", icon: FolderGit2, label: "Projects" },
+    { href: "/#projects", icon: Code2, label: "Projects" },
+    { href: "/#hackathons", icon: Lightbulb, label: "Hackathons" },
   ],
   contact: {
     email: "tpathipa9@gmail.com",
@@ -72,7 +73,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:tpathipa9@gmail.com",
         icon: Icons.email,
-        navbar: true,
+        navbar: false,
       },
     },
   },
