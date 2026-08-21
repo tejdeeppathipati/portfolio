@@ -95,7 +95,7 @@ export const DATA = {
       badges: [],
       location: "Bolingbrook, IL",
       title: "Data Engineer Intern",
-      logoUrl: "",
+      logoUrl: "/witronix-logo.png",
       start: "May 2025",
       end: "Aug 2025",
       description:
@@ -107,7 +107,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Software Engineer Intern",
-      logoUrl: "",
+      logoUrl: "/rise-logo.png",
       start: "May 2024",
       end: "Aug 2024",
       description:
@@ -119,7 +119,7 @@ export const DATA = {
       school: "George Mason University",
       href: "https://www.gmu.edu/",
       degree: "B.S. in Computer Science · GPA 3.7/4.0",
-      logoUrl: "",
+      logoUrl: "/gm.png",
       start: "Aug 2022",
       end: "May 2026",
     },
