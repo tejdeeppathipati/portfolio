@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { Code2, HomeIcon, Lightbulb } from "lucide-react";
+import { Code2, HomeIcon } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -45,7 +45,6 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/#projects", icon: Code2, label: "Projects" },
-    { href: "/#hackathons", icon: Lightbulb, label: "Hackathons" },
   ],
   contact: {
     email: "tpathipa9@gmail.com",
@@ -174,42 +173,6 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/tejdeeppathipati/FINRA-Compliance-RAG-System",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Mini LLM Transformer",
-      href: "https://github.com/tejdeeppathipati/mini-llm-transformer",
-      dates: "Apr 2025 – May 2025",
-      active: false,
-      description:
-        "A sequence-to-sequence Transformer implementation with ELECTRA embeddings, positional encoding, multi-head attention, encoder-decoder stacks, and beam-search decoding for conversational text generation.",
-      technologies: ["Python", "PyTorch", "Transformers", "ELECTRA", "NLP"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tejdeeppathipati/mini-llm-transformer",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Forensic Fusion",
-      href: "https://github.com/tejdeeppathipati/forensic-fusion",
-      dates: "Jan 2026",
-      active: false,
-      description:
-        "A memory-forensics pipeline that turns raw Windows dumps into evidence-driven incident reports. It combines Volatility 3, registry extraction, an agent-routed analysis workflow, and grounded AI summaries for faster security triage.",
-      technologies: ["FastAPI", "Next.js", "Volatility 3", "LangChain", "Gemini", "Docker"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tejdeeppathipati/forensic-fusion",
           icon: <Icons.github className="size-3" />,
         },
       ],
