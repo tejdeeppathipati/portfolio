@@ -10,16 +10,20 @@ export default function HighlightsSection() {
         <div className="flex w-full items-center">
           <div className="h-px flex-1 bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
           <div className="z-10 rounded-xl border bg-primary px-4 py-1">
-            <span className="text-sm font-medium text-background">Highlights</span>
+            <span className="text-sm font-medium text-background">
+              Beyond Projects
+            </span>
           </div>
           <div className="h-px flex-1 bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
         </div>
         <div className="flex flex-col items-center justify-center gap-y-3">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-            Beyond the projects
+          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl">
+            Research, teaching &amp; recognition
           </h2>
-          <p className="text-balance text-center text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
-            Research, teaching, and recognition that shaped how I build and collaborate.
+          <p className="max-w-xl text-balance text-center leading-relaxed text-muted-foreground md:text-lg">
+            I also study model internals, teach programming, and build under
+            competition constraints—experiences that sharpen how I reason,
+            communicate, and ship.
           </p>
         </div>
       </div>

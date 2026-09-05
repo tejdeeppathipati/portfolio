@@ -145,7 +145,7 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="contact">
-        <BlurFade delay={BLUR_FADE_DELAY * 16}>
+        <BlurFade delay={BLUR_FADE_DELAY * 17}>
           <ContactSection />
         </BlurFade>
       </section>

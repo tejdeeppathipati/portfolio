@@ -24,9 +24,9 @@ export const DATA = {
   location: "Fairfax, Virginia",
   locationLink: "https://www.google.com/maps/place/Fairfax,+VA",
   description:
-    "Software engineer building reliable AI systems, data platforms, and backend products.",
+    "Software engineer building reliable backend, data, and applied AI systems—from production APIs to agentic workflows.",
   summary:
-    "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/) who enjoys turning ambitious ideas into dependable software. My work spans AI agents, retrieval systems, data engineering, and backend APIs—with a focus on clear architecture, measurable reliability, and products people can actually use. I’m currently building production services at Miraivant Advisory and exploring grounded AI systems in my own projects.",
+    "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/) whose experience sits where backend engineering, data infrastructure, and applied AI meet. I’ve built FastAPI services and agentic workflows, AWS data pipelines handling 50,000+ rail-camera images a day, and retrieval systems designed to cite their evidence or abstain when they cannot.\n\nI care about the engineering between a promising prototype and dependable software: clear API contracts, durable state, validation, retries, testing, and observability. I’m looking for an early-career software engineering role where I can own meaningful problems and keep growing across backend, cloud, and AI systems.",
   avatarUrl: "/tejdeep-pathipati-image.jpeg",
   skills: [
     { name: "Python", icon: Python },
@@ -207,7 +207,7 @@ export const DATA = {
       title: "Research Assistant · LLM Watermarking",
       organization: "George Mason University",
       description:
-        "Prototyped token-level sampling changes in vLLM and experimented with GPU activation capture using CUDA streams.",
+        "Prototyping token-level sampling changes in vLLM and benchmarking GPU activation capture with a focus on preserving inference throughput.",
       icon: FlaskConical,
     },
     {
@@ -215,7 +215,7 @@ export const DATA = {
       title: "Teaching Assistant · Java & Python",
       organization: "George Mason University",
       description:
-        "Mentored 60+ students in object-oriented programming, data structures, and systematic debugging.",
+        "Mentored 50+ students through labs, code reviews, and one-on-one guidance in object-oriented programming, data structures, and systematic debugging.",
       icon: GraduationCap,
     },
     {
@@ -231,7 +231,7 @@ export const DATA = {
       title: "2-Time Hackathon Finalist",
       organization: "HackPrinceton · HoyaHacks",
       description:
-        "Finalist at HackPrinceton and HoyaHacks, with hands-on participation in more than ten hackathons.",
+        "Reached the finals at HackPrinceton and HoyaHacks after building working products under tight team and time constraints.",
       icon: Trophy,
     },
   ],
