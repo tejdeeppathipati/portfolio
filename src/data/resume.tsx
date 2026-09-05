@@ -24,9 +24,9 @@ export const DATA = {
   location: "Fairfax, Virginia",
   locationLink: "https://www.google.com/maps/place/Fairfax,+VA",
   description:
-    "Software engineer building reliable backend, data, and applied AI systems—from production APIs to agentic workflows.",
+    "I build backend systems for AI products: APIs, data flow, workflow state, and human approval.",
   summary:
-    "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/) whose experience sits where backend engineering, data infrastructure, and applied AI meet. I’ve built FastAPI services and agentic workflows, AWS data pipelines handling 50,000+ rail-camera images a day, and retrieval systems designed to cite their evidence or abstain when they cannot.\n\nI care about the engineering between a promising prototype and dependable software: clear API contracts, durable state, validation, retries, testing, and observability. I’m looking for an early-career software engineering role where I can own meaningful problems and keep growing across backend, cloud, and AI systems.",
+    "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/) with experience building backend services, cloud data infrastructure, and AI workflows. At Wi-Tronix, I built Python and SQL ingestion pipelines for 50,000+ daily rail camera images and AWS workflows managing 5TB+ of ML data with S3, Apache Iceberg, Athena, and EKS. At Miraivant Advisory, I built 10+ FastAPI and MongoDB endpoints, a multi stage candidate matching service, and CI/CD pipelines for AWS EC2.\n\nMy recent projects include a FINRA compliance RAG system with hybrid pgvector and full text retrieval, citation validation, and abstention, plus LangGraph workflows with persisted state, retries, and human approval. I’m targeting full time software engineering roles across backend, data platforms, cloud systems, and applied AI.",
   avatarUrl: "/tejdeep-pathipati-image.jpeg",
   skills: [
     { name: "Python", icon: Python },
