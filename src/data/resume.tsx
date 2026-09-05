@@ -1,5 +1,13 @@
 import { Icons } from "@/components/icons";
-import { Code2, HomeIcon } from "lucide-react";
+import {
+  Award,
+  Code2,
+  FlaskConical,
+  GraduationCap,
+  HomeIcon,
+  Lightbulb,
+  Trophy,
+} from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -8,12 +16,6 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
-
-const emptyHighlightLinks: {
-  title: string;
-  icon: React.ReactNode;
-  href: string;
-}[] = [];
 
 export const DATA = {
   name: "Tejdeep Pathipati",
@@ -45,6 +47,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/#projects", icon: Code2, label: "Projects" },
+    { href: "/#highlights", icon: Lightbulb, label: "Highlights" },
   ],
   contact: {
     email: "tpathipa9@gmail.com",
@@ -198,42 +201,38 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [
+  highlights: [
     {
+      category: "Research",
       title: "Research Assistant · LLM Watermarking",
-      dates: "Research",
-      location: "George Mason University",
+      organization: "George Mason University",
       description:
         "Prototyped token-level sampling changes in vLLM and experimented with GPU activation capture using CUDA streams.",
-      image: "",
-      links: emptyHighlightLinks,
+      icon: FlaskConical,
     },
     {
+      category: "Teaching",
       title: "Teaching Assistant · Java & Python",
-      dates: "Teaching",
-      location: "George Mason University",
+      organization: "George Mason University",
       description:
         "Mentored 60+ students in object-oriented programming, data structures, and systematic debugging.",
-      image: "",
-      links: emptyHighlightLinks,
+      icon: GraduationCap,
     },
     {
+      category: "Recognition",
       title: "7-Time Dean’s List Honoree",
-      dates: "Recognition",
-      location: "George Mason University",
+      organization: "George Mason University",
       description:
         "Recognized for academic performance across seven semesters of the Computer Science program.",
-      image: "",
-      links: emptyHighlightLinks,
+      icon: Award,
     },
     {
+      category: "Hackathons",
       title: "2-Time Hackathon Finalist",
-      dates: "Hackathons",
-      location: "HackPrinceton · HoyaHacks",
+      organization: "HackPrinceton · HoyaHacks",
       description:
         "Finalist at HackPrinceton and HoyaHacks, with hands-on participation in more than ten hackathons.",
-      image: "",
-      links: emptyHighlightLinks,
+      icon: Trophy,
     },
   ],
 } as const;
