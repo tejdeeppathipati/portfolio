@@ -9,8 +9,8 @@ export default function HighlightsSection() {
       <div className="flex flex-col items-center justify-center gap-y-4">
         <div className="flex w-full items-center">
           <div className="h-px flex-1 bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
-          <div className="z-10 rounded-xl border bg-primary px-4 py-1">
-            <span className="text-sm font-medium text-background">
+          <div className="z-10 rounded-full border border-primary/20 bg-primary/10 px-4 py-1">
+            <span className="text-sm font-medium text-primary">
               Beyond Projects
             </span>
           </div>
@@ -22,7 +22,7 @@ export default function HighlightsSection() {
           </h2>
           <p className="max-w-xl text-balance text-center leading-relaxed text-muted-foreground md:text-lg">
             I also study model internals, teach programming, and build under
-            competition constraints—experiences that sharpen how I reason,
+            competition constraints, experiences that sharpen how I reason,
             communicate, and ship.
           </p>
         </div>
