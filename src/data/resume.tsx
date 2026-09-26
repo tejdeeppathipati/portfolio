@@ -6,6 +6,7 @@ import {
   GraduationCap,
   HomeIcon,
   Lightbulb,
+  BookOpenText,
   Trophy,
 } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
@@ -24,9 +25,9 @@ export const DATA = {
   location: "Fairfax, Virginia",
   locationLink: "https://www.google.com/maps/place/Fairfax,+VA",
   description:
-    "I build backend systems for AI products: APIs, data flow, workflow state, and human approval.",
+    "I like two kinds of problems: how machines do intelligent things, and how we build systems around them that actually work.",
   summary:
-    "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/) with experience building backend services, cloud data infrastructure, and AI workflows. At Wi-Tronix, I built Python and SQL ingestion pipelines for 50,000+ daily rail camera images and AWS workflows managing 5TB+ of ML data with S3, Apache Iceberg, Athena, and EKS. At Miraivant Advisory, I built 10+ FastAPI and MongoDB endpoints, a multi stage candidate matching service, and CI/CD pipelines for AWS EC2.\n\nMy recent projects include a FINRA compliance RAG system with hybrid pgvector and full text retrieval, citation validation, and abstention, plus LangGraph workflows with persisted state, retries, and human approval. I’m targeting full time software engineering roles across backend, data platforms, cloud systems, and applied AI.",
+    "I’m a Computer Science graduate from [George Mason University](https://www.gmu.edu/). Most of my work has landed somewhere between backend engineering and applied AI: moving 50,000+ daily images through cloud data pipelines, building APIs and long-running workflows, researching LLM inference, and creating retrieval systems that know when not to answer.\n\nI’m especially interested in the less glamorous parts that decide whether intelligent software is actually useful: reliable data, durable state, evaluation, retries, and letting a human step in when the system gets something wrong.",
   avatarUrl: "/tejdeep-pathipati-image.jpeg",
   skills: [
     { name: "Python", icon: Python },
@@ -47,6 +48,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/#projects", icon: Code2, label: "Projects" },
+    { href: "/story", icon: BookOpenText, label: "My Story" },
     { href: "/#highlights", icon: Lightbulb, label: "Highlights" },
   ],
   contact: {
@@ -81,16 +83,28 @@ export const DATA = {
   },
   work: [
     {
+      company: "George Mason University",
+      href: "https://www.gmu.edu",
+      badges: [],
+      location: "Fairfax, VA",
+      title: "Classroom Technology Assistant",
+      logoUrl: "/gm.png",
+      start: "Sep 2026",
+      end: "Present",
+      description:
+        "Building features for an internal AI-powered support assistant, including knowledge-base retrieval and response evaluation, while troubleshooting the classroom technology used across campus.",
+    },
+    {
       company: "Miraivant Advisory",
       href: "https://miraivant.com",
       badges: [],
       location: "Rockville, MD",
-      title: "Software / AI Engineer",
+      title: "AI / Software Development Intern",
       logoUrl: "",
-      start: "Jun 2026",
-      end: "Present",
+      start: "May 2026",
+      end: "Sep 2026",
       description:
-        "Designed API contracts and shipped 10+ FastAPI and MongoDB endpoints supporting 500+ job records. Built a multi-stage candidate matching service, expanded backend test coverage by 15%, and created GitHub Actions pipelines that test, containerize, and deploy services to AWS EC2.",
+        "Built 8 FastAPI and MongoDB endpoints plus an asynchronous candidate-matching workflow with persisted state, retries, and human approval checkpoints. Added validation, structured logging, error handling, and automated API tests.",
     },
     {
       company: "Wi-Tronix",
@@ -102,7 +116,7 @@ export const DATA = {
       start: "May 2025",
       end: "Aug 2025",
       description:
-        "Built a fault-tolerant Python and SQL ingestion pipeline processing 50,000+ rail-camera images each day. Designed AWS workflows across S3, Apache Iceberg, and EKS for 5TB+ of ML data, and reduced manual data handoffs by 50% through SuperAnnotate integrations and scheduled synchronization jobs.",
+        "Built a Python ingestion service processing 50,000+ rail-camera images each day. Designed AWS workflows across S3, Apache Iceberg, Athena, and EKS for multi-terabyte ML datasets, reduced query latency by about 40%, and cut manual data handoffs by 50%.",
     },
     {
       company: "Rise Consultancy Edu",
@@ -228,10 +242,10 @@ export const DATA = {
     },
     {
       category: "Hackathons",
-      title: "2-Time Hackathon Finalist",
-      organization: "HackPrinceton · HoyaHacks",
+      title: "5-Time Hackathon Winner",
+      organization: "Product, AI, and engineering competitions",
       description:
-        "Reached the finals at HackPrinceton and HoyaHacks after building working products under tight team and time constraints.",
+        "Built and presented working products under tight team and time constraints, from AI social automation to computer vision for smarter buildings.",
       icon: Trophy,
     },
   ],
