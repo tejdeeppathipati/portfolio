@@ -11,10 +11,10 @@ export default function StorySection() {
       </div>
       <div className="flex flex-col items-center gap-4 text-center">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-          The part that doesn&apos;t fit on a résumé
+          The part that doesn&apos;t fit on a resume
         </h2>
         <p className="max-w-lg text-balance leading-relaxed text-muted-foreground">
-          A résumé can tell you what I have done. It is not very good at
+          A resume can tell you what I have done. It is not very good at
           explaining how Siri, moving from India at sixteen, teaching code, and
           a pile of unfinished prototypes all connect.
         </p>
