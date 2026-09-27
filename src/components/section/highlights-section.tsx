@@ -9,8 +9,8 @@ export default function HighlightsSection() {
       <div className="flex flex-col items-center justify-center gap-y-4">
         <div className="flex w-full items-center">
           <div className="h-px flex-1 bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
-          <div className="z-10 rounded-full border border-primary/20 bg-primary/10 px-4 py-1">
-            <span className="text-sm font-medium text-primary">
+          <div className="z-10 rounded-xl border bg-primary px-4 py-1">
+            <span className="text-sm font-medium text-background">
               Beyond Projects
             </span>
           </div>
