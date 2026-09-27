@@ -140,7 +140,7 @@ export const DATA = {
       technologies: ["Next.js", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Redis", "Composio"],
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/tejdeeppathipati/Replic",
           icon: <Icons.github className="size-3" />,
         },
@@ -158,7 +158,7 @@ export const DATA = {
       technologies: ["React", "TypeScript", "Python", "FastAPI", "LangGraph", "MongoDB"],
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/tejdeeppathipati/short-term-relocation-agent",
           icon: <Icons.github className="size-3" />,
         },
@@ -176,7 +176,7 @@ export const DATA = {
       technologies: ["Python", "FastAPI", "React", "PostgreSQL", "pgvector", "Docker", "Gemini"],
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/tejdeeppathipati/FINRA-Compliance-RAG-System",
           icon: <Icons.github className="size-3" />,
         },
@@ -194,7 +194,7 @@ export const DATA = {
       technologies: ["Python", "FastAPI", "Next.js", "YOLO", "OpenCV", "Modal"],
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/tejdeeppathipati/TennisIQ",
           icon: <Icons.github className="size-3" />,
         },
