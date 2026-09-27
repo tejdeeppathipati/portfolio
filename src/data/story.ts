@@ -134,7 +134,7 @@ Not because it looks good on my GitHub.
 
 Not because there's a hackathon deadline.
 
-Not because I need another project on my résumé.
+Not because I need another project on my resume.
 
 **Because somebody genuinely wants it.**
 
