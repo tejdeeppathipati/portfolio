@@ -24,13 +24,13 @@ export default function StoryPage() {
 
       <header className="border-b pb-10">
         <p className="mb-4 text-sm font-medium text-muted-foreground">
-          A little more than the résumé
+          A little more than the resume
         </p>
         <h1 className="text-balance text-3xl font-bold tracking-tighter sm:text-4xl">
-          The part that doesn&apos;t fit on a résumé
+          The part that doesn&apos;t fit on a resume
         </h1>
         <div className="mt-6 space-y-2 leading-relaxed text-muted-foreground md:text-lg">
-          <p>A résumé can tell you what I have done.</p>
+          <p>A resume can tell you what I have done.</p>
           <p>It is not very good at explaining how I ended up doing any of it.</p>
           <p className="font-medium text-foreground">So this is the other version.</p>
         </div>
