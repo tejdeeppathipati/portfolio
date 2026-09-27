@@ -83,18 +83,6 @@ export const DATA = {
   },
   work: [
     {
-      company: "George Mason University",
-      href: "https://www.gmu.edu",
-      badges: [],
-      location: "Fairfax, VA",
-      title: "Classroom Technology Assistant",
-      logoUrl: "/gm.png",
-      start: "Sep 2026",
-      end: "Present",
-      description:
-        "Building features for an internal AI-powered support assistant, including knowledge-base retrieval and response evaluation, while troubleshooting the classroom technology used across campus.",
-    },
-    {
       company: "Miraivant Advisory",
       href: "https://miraivant.com",
       badges: [],
